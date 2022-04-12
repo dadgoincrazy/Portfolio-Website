@@ -122,6 +122,7 @@ nav li:hover {
 
 #profile #profile-email {
     margin: 0;
+    color: var(--DarkGrey)
 }
 
 #profile .quote {
@@ -155,10 +156,9 @@ nav li:hover {
 
 #profile #profile-content {
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 5px;
     flex-grow: 1;
     overflow-y: auto;
-    margin-bottom: 5px;
 }
 
 #profile #attributes {
@@ -183,8 +183,6 @@ nav li:hover {
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     display: block;
     margin: 0.5em auto;
-    transition: 150ms linear;
-    transform-origin: center;
 }
 
 #profile #socials {
@@ -217,12 +215,10 @@ nav li:hover {
 
 #profile #socials a:not(:first-child) img {
     height: 4em;
-    transition: all 200ms ease;
 }
 
 #profile #socials a:hover {
     cursor: pointer;
-    /* animation: blink 2s ease infinite; */
 }
 
 #profile #socials a:hover img {
