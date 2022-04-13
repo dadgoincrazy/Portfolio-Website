@@ -253,3 +253,14 @@ nav li:hover {
     margin-top: 1.5em;
     margin-bottom: 2em;
 }
+
+.content-section p {
+    width: 100%;
+    height: 100%;
+}
+
+/* Resume */
+#resume #object-resume {
+    width: 100%;
+    height: 60VH;
+}
