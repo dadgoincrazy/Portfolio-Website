@@ -204,6 +204,11 @@ nav li:hover {
     right: 0;
 }
 
+#profile .quote .quote-author {
+    display: inline-block;
+    width: 100%;
+}
+
 #profile #profile-content {
     margin-top: auto;
     margin-bottom: 5px;
