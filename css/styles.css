@@ -318,6 +318,13 @@ nav li:hover {
 
 #projects .project-images img {
     flex: 1;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+    transition: 200ms;
+}
+
+#projects .project-images img:hover {
+    transform: scale(1.05);
+    transition: 200ms;
+    cursor: pointer;
 }
