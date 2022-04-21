@@ -303,3 +303,21 @@ nav li:hover {
     width: 100%;
     height: 60VH;
 }
+
+/* Projects */
+#projects .project-section {
+    width: 100%;
+}
+
+#projects .project-images {
+    position: relative;
+    max-width: 100%;
+    display: block;
+    justify-content: space-between;
+}
+
+#projects .project-images img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
